@@ -71,7 +71,7 @@ if uploaded_file is not None:
     st.dataframe(input_data)
 
     model_directory = r'E:\Kuliah Semester 5\PMDPM\Minggu 6\Model Suprevised Learning (Praktek)\Tugas3_A_11840'
-    model_path = os.path.join(model_directory, r'RR_regresi_IPK_model.pkl')
+    model_path = r'RR_regresi_IPK_model.pkl'
 
     if os.path.exists(model_path):
         with open(model_path, 'rb') as f:
